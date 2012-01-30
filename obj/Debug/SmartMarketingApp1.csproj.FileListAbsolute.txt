@@ -1,0 +1,14 @@
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\Bin\Debug\ApplicationIcon.png
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\Bin\Debug\Background.png
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\Bin\Debug\SmartMarketingApp1.dll
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\Bin\Debug\SmartMarketingApp1.pdb
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\Bin\Debug\AppManifest.xaml
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\Bin\Debug\SmartMarketingApp1.xap
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\Bin\Debug\WP7GapClassLib.dll
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\obj\Debug\App.g.i.cs
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\obj\Debug\MainPage.g.i.cs
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\obj\Debug\SmartMarketingApp1.g.resources
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\obj\Debug\SmartMarketingApp1.dll
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\obj\Debug\SmartMarketingApp1.pdb
+C:\Users\Paul\Documents\PhoneProjects\SmartMarketingApp1\SmartMarketingApp1\obj\Debug\XapCacheFile.xml

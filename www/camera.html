@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+   <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+
+   <Title>Camera</Title>
+   <link rel="stylesheet" href="master.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+
+   <script type="text/javascript" >
+     var myWidth=300;
+     var myHeight=300;
+     var frog=new Image();
+     frog.src="frog.jpg";
+     var background=new Image();
+     background.src="Background.jpg";
+     var Count=0;
+
+     function drawThis()
+     {
+     frog.onload= function() {
+     drawdiagonal();
+     }
+     }
+
+     function drawdiagonal()
+     {
+     console.log("Hi");
+     var canvas=document.getElementById('pc1');
+
+     if (canvas.getContext) {
+     var context=canvas.getContext('2d');
+     context.drawImage(background,0,0,myWidth,myHeight);
+     context.beginPath();
+     context.rect(0, 0, 100, 100);
+     context.moveTo(70,140);
+     context.lineTo(140,70);
+     context.lineWidth=10;
+     context.strokeStyle = 'blue';
+     context.fillStyle = 'yellow';
+     context.fill();
+     context.drawImage(frog,Count,Count,30,30);
+     context.stroke();
+     }
+     }
+
+     function moveFrog()
+     {
+     Count+=30;
+     drawdiagonal();
+     }
+
+     window.addEventListener("load",drawdiagonal,false);
+   </script>
+
+      
+</head>
+  
+  <body>
+    <h1>Hello Paul</h1>
+    
+    <form id="form" action="#">
+      
+  <input id="searchText" type="text"/>
+  <input id="searchButton" value="Go Paul" type="submit"/>
+  <input id="getLocationButton" value="My Location" type="button"/>
+   <a href="#" class="btn large" onClick="drawdiagonal();">Draw</a>
+   <a href="#" class="btn large" onClick="moveFrog();">Move</a>
+
+
+    </form>
+
+    <canvas id="pc1" height="height" width="width" style="border: 2px solid;"/>
+    <div id="info">
+      Status: <span id="camera_status"></span>
+      <img style="width:120px;height:120px;visibility:hidden;display:none;" id="camera_image" src="" />
+    </div>
+
+  </body>
+
+</html>
