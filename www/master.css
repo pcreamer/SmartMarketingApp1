@@ -2,8 +2,13 @@
   
   body 
   {
+<<<<<<< HEAD
     background:#030 none repeat scroll 0 0;
     color:#cac;
+=======
+    background:#000 none repeat scroll 0 0;
+    color:#ccc;
+>>>>>>> 06c925160694df76eb893bdb42c45cec794cb122
     font-family:Helvetica, Verdana, Geneva, sans-serif;
     margin:0;
     border-top:1px solid #393939;

@@ -4,7 +4,11 @@
     <VisualStudio>
       <FlavorProperties GUID="{C089C8C0-30E0-4E22-80C0-CE093F111A43}">
         <SilverlightMobileCSProjectFlavor>
+<<<<<<< HEAD
           <FullDeploy>False</FullDeploy>
+=======
+          <FullDeploy>True</FullDeploy>
+>>>>>>> 06c925160694df76eb893bdb42c45cec794cb122
         </SilverlightMobileCSProjectFlavor>
       </FlavorProperties>
     </VisualStudio>

@@ -81,12 +81,15 @@
     <Content Include="GapLib\WP7GapClassLib.dll" />
     <Content Include="GapSourceDictionary.xml" />
     <None Include="ManifestProcessor.js" />
+<<<<<<< HEAD
     <Resource Include="www\Background.jpg" />
     <Content Include="www\camera.html">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="www\camera.js" />
     <Resource Include="www\Frog.jpg" />
+=======
+>>>>>>> 06c925160694df76eb893bdb42c45cec794cb122
     <Content Include="www\index.html">
       <SubType>Designer</SubType>
     </Content>
